@@ -64,15 +64,9 @@ params:
   footer:
     type: footer
     template: footer
-    content: "&copy; Stackbit-Libris. All rights reserved."
-    links:
-    - type: action
-      template: action
-      label: Made with Stackbit
-      url: https://www.stackbit.com
-      style: link
-      new_window: true
-    has_social: true
+    content: "&copy; ПАК-ВМ. All rights reserved."
+    links: []
+    has_social: false
     social_links:
     - type: action
       template: action
