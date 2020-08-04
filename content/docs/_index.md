@@ -1,16 +1,18 @@
 ---
-title: Welcome to Libris
+title: Внутренняя вики ПАК-ВМ
 layout: docs
----
+weight: 
+excerpt: ''
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt id ante id varius. Fusce a gravida dolor.
+---
+Привет! Это наша внутренняя вики, в которой можно найти ответы на самые распространенные вопросы.
 
 ***
 
-Sed vel arcu ac ante blandit ultricies quis eget justo. Donec et lacinia sapien, sit amet tempus ligula. Fusce et sagittis massa. Fusce mollis mollis dui eget sagittis. Suspendisse id nunc mauris.
+Здесь можно узнать о порядке предоставления отпусков и больничных, политике компании по компенсации труда сотрудников и другую полезную информацию.
 
-Sed posuere velit ut tellus mollis mollis. Fusce dictum sollicitudin odio nec convallis. Integer et magna quis ligula cursus ullamcorper. Vestibulum eu egestas magna. Proin et tempus nulla. Quisque mattis purus ut pharetra tincidunt. Nulla facilisi. Donec et nunc consectetur, auctor lacus et, dignissim neque. Suspendisse sed massa metus. 
+Не забываем о правилах поведения в офисе.
 
-[Morbi ac vulputate enim](https://stackbit.com)
+[Правила внутреннего этикета](https://packvm-wiki.netlify.app/style-guide)
 
-Maecenas metus justo, imperdiet vel velit et, iaculis consectetur risus. Etiam venenatis odio quis vulputate interdum. Nulla facilisi. Pellentesque nibh nibh, elementum sed mauris vel, commodo pretium magna.
+Контакты всех сотрудников можно найти [здесь]()
