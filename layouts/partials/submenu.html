@@ -1,0 +1,8 @@
+<ul class="{{ .menu_class }}">
+  {{ range $action := .submenu }}
+  <li class="menu-item{{ if eq $.page.URL $action.url }} current{{ end }}{{ if ne $action.style "link" }} menu-button{{ end }}">
+    {{ $include_dict := dict "action" $action }}
+    {{ partial "action_link.html" $include_dict }}
+  </li>
+  {{ end }}
+</ul>
