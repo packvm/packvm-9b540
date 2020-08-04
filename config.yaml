@@ -1,33 +1,34 @@
-title: Stackbit Libris Theme
-baseURL: /
+---
+title: Вики ПАК-ВМ
+baseURL: "/"
 params:
-  description: A documentation theme
+  description: Вики для сотрудников ПАК-ВМ
   palette: blue
   palettes:
     blue:
       type: palette
       template: palette
       sass:
-        accent1: '#00c6ff'
-        accent2: '#0072ff'
+        accent1: "#00c6ff"
+        accent2: "#0072ff"
     green:
       type: palette
       template: palette
       sass:
-        accent1: '#12db5d'
-        accent2: '#11998e'
+        accent1: "#12db5d"
+        accent2: "#11998e"
     navy:
       type: palette
       template: palette
       sass:
-        accent1: '#004e92'
-        accent2: '#000428'
+        accent1: "#004e92"
+        accent2: "#000428"
     violet:
       type: palette
       template: palette
       sass:
-        accent1: '#8e2de2'
-        accent2: '#4a00e0'
+        accent1: "#8e2de2"
+        accent2: "#4a00e0"
   header:
     type: header
     template: header
@@ -35,90 +36,90 @@ params:
     logo_img: images/logo.svg
     has_nav: true
     nav_links:
-      - type: action_menu
-        template: action_menu
-        label: Home
-        url: /
+    - type: action_menu
+      template: action_menu
+      label: Home
+      url: "/"
+      style: link
+      has_subnav: false
+    - type: action_menu
+      template: action_menu
+      label: Docs
+      url: "/docs"
+      style: link
+      has_subnav: false
+    - type: action_menu
+      template: action_menu
+      label: Blog
+      url: "/blog"
+      style: link
+      has_subnav: false
+    - type: action_menu
+      template: action_menu
+      label: Sample Pages
+      url: "#"
+      style: link
+      has_subnav: true
+      subnav_links:
+      - type: action
+        template: action
+        label: Overview
+        url: "/overview"
         style: link
-        has_subnav: false
-      - type: action_menu
-        template: action_menu
-        label: Docs
-        url: /docs
+      - type: action
+        template: action
+        label: Showcase
+        url: "/showcase"
         style: link
-        has_subnav: false
-      - type: action_menu
-        template: action_menu
-        label: Blog
-        url: /blog
-        style: link
-        has_subnav: false
-      - type: action_menu
-        template: action_menu
-        label: Sample Pages
-        url: '#'
-        style: link
-        has_subnav: true
-        subnav_links:
-          - type: action
-            template: action
-            label: Overview
-            url: /overview
-            style: link
-          - type: action
-            template: action
-            label: Showcase
-            url: /showcase
-            style: link
-      - type: action_menu
-        template: action_menu
-        label: Style Guide
-        url: /style-guide
-        style: link
-        has_subnav: false
-      - type: action_menu
-        template: action_menu
-        label: GitHub
-        url: 'https://github.com/'
-        style: primary
-        has_subnav: false
+    - type: action_menu
+      template: action_menu
+      label: Style Guide
+      url: "/style-guide"
+      style: link
+      has_subnav: false
+    - type: action_menu
+      template: action_menu
+      label: GitHub
+      url: https://github.com/
+      style: primary
+      has_subnav: false
   footer:
     type: footer
     template: footer
-    content: '&copy; Stackbit-Libris. All rights reserved.'
+    content: "&copy; Stackbit-Libris. All rights reserved."
     links:
-      - type: action
-        template: action
-        label: Made with Stackbit
-        url: 'https://www.stackbit.com'
-        style: link
-        new_window: true
+    - type: action
+      template: action
+      label: Made with Stackbit
+      url: https://www.stackbit.com
+      style: link
+      new_window: true
     has_social: true
     social_links:
-      - type: action
-        template: action
-        label: Twitter
-        url: 'https://twitter.com/'
-        style: icon
-        icon_class: fa-twitter
-        new_window: true
-      - type: action
-        template: action
-        label: LinkedIn
-        url: 'https://www.linkedin.com/'
-        style: icon
-        icon_class: fa-linkedin
-        new_window: true
-      - type: action
-        template: action
-        label: GitHub
-        url: 'https://github.com/'
-        style: icon
-        icon_class: fa-github
-        new_window: true
+    - type: action
+      template: action
+      label: Twitter
+      url: https://twitter.com/
+      style: icon
+      icon_class: fa-twitter
+      new_window: true
+    - type: action
+      template: action
+      label: LinkedIn
+      url: https://www.linkedin.com/
+      style: icon
+      icon_class: fa-linkedin
+      new_window: true
+    - type: action
+      template: action
+      label: GitHub
+      url: https://github.com/
+      style: icon
+      icon_class: fa-github
+      new_window: true
 taxonomies:
   stub: stub
 disableKinds:
-  - RSS
-  - taxonomy
-  - taxonomyTerm
+- RSS
+- taxonomy
+- taxonomyTerm
