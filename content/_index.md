@@ -43,12 +43,12 @@ sections:
     actions:
     - type: action
       template: action
-      label: View Posts
+      label: Просмотреть статьи
       url: "/blog"
       style: link
       icon_class: ''
       new_window: false
-    title_url: ''
+    title_url: https://packvm-wiki.netlify.app/blog
     image: ''
   - type: grid_item
     template: grid_item
@@ -57,12 +57,12 @@ sections:
     actions:
     - type: action
       template: action
-      label: Learn More
+      label: Перейти
       url: "/style-guide"
       style: link
       icon_class: ''
       new_window: false
-    title_url: ''
+    title_url: https://packvm-wiki.netlify.app/behavior-rules
     image: ''
   title: ''
   subtitle: ''
