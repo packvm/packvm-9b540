@@ -28,5 +28,4 @@ fields:
   config:
     required: true
 pages:
-- content/style-guide.md
 - content/правила-внутреннего-этикета.md
