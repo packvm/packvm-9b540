@@ -1,7 +1,7 @@
 ---
 root_docs_path: "/docs"
 sections:
-- about
+- Правила внутреннего распорядка
 - getting-started
 - ui-components
 - manage-content
